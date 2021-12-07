@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  align-items: center;
+  /* width: 35vw; */
+}
+.addText {
+  width: 45vw;
+}
+h4{
+    text-align: center;
+    margin: 3rem;
+    position: relative;
+    left: -29%;
+}
+.address{
+    width: 65vw;
+    height: 120vh;
+    background-color:white;
+    border-radius: 6px;
+    margin-top: 4rem;
+    box-shadow: 5px 5px 10px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
