@@ -9,7 +9,7 @@ import { Step, StepLabel } from "@mui/material";
 import Other from "./components/Other";
 const App = () => {
   const steps = ["Basic Details", "Addresss Details", "Other Details"];
-  const [activeStep, setActiveStep] = useState(2);
+  const [activeStep, setActiveStep] = useState(0);
 
   return (
     <div className="container">
