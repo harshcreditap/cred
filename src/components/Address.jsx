@@ -29,9 +29,7 @@ const Address = ({ setActiveStep }) => {
   const handleClick = () => {
     setActiveStep((activeStep) => activeStep - 1);
   };
-  const handleIncrement = () => {
-    setActiveStep((activeStep) => activeStep + 1);
-  };
+
   // console.log(formik.values);
   return (
     <div className="contain">
@@ -97,7 +95,7 @@ const Address = ({ setActiveStep }) => {
           <Button variant="contained" onClick={handleClick}>
             Back
           </Button>
-          <Button variant="contained" type="submit" onClick={handleIncrement}>
+          <Button variant="contained" type="submit" >
             Next
           </Button>
           </div>
